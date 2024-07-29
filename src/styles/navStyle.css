@@ -1,0 +1,31 @@
+.navbar {
+    display: flex;
+    justify-content: left;
+    background-color: black;
+    color: white;
+    padding: 20px ;
+
+
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 50px;
+  }
+
+  .navbar img {
+    margin-left: 50px;
+
+  }
+  
+  .navbar a:hover {
+    background-color: white;
+    color: black;
+  }
+  
